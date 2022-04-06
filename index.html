@@ -2,6 +2,17 @@
 <head>
     <meta charset="UTF-8">
     <title>eCoin</title>
+    <script>
+        function coinFlip(){
+            return Math.round(Math.random());
+        }
+        function flipOut(){
+            if (coinFlip() == 0)
+                return "Tails";
+            else 
+                return "Heads";
+        }
+    </script>
     <style>
 
     </style>
